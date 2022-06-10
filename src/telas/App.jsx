@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import Menu from './Menu'
-import About from './About'
 import Content from '../componentes/layouts/Content'
 import{ BrowserRouter as Router } from 'react-router-dom'
 

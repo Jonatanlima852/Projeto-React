@@ -1,42 +1,50 @@
-body{
-  font-family: Arial, Helvetica, sans-serif; 
-  background: #caf0f8 url('https://images.pexels.com/photos/2873992/pexels-photo-2873992.jpeg?cs=srgb&dl=a-beira-mar-agua-do-oceano-alvorecer-2873992.jpg&fm=jpg');
+
+.forms{
+  text-align: center;
+  position: relative;
+  background-color: rgb(98, 151, 186);
+  border-radius:10px;
+
 }
 .corpo_do_formulário{
+  text-align: center;
   padding: 20px;
-  background: #226671;
+  background: #3c8490;
   margin: auto;
-  width: 250px ;
-  border-radius: 30px;
+  width: 35.2em ;
+  border-radius: 10px;
   font-size: 20px;
   border-color: gray;
   box-shadow:10px  gray;
   color: white;
+  
 }
 .botão{
+  text-align: center;
   background-color: #0077b6;
   color: white;
   padding:10px;
   font-size:25px;
   border-radius:10px ;
   cursor:pointer;
+  margin: 0.5rem;
 }
-.forms{
-  text-align: center;
-  position: relative;
-  top: 30px;
-  background-color: chartreuse;
-}
+
 #Email{
   padding: 10px;
-  border-radius: 7px;
-  background:#fff
-}
-#Senha{
-  padding: 10px;
+  margin: 0.5rem;
+  size: 10px;
   border:30px, black;
   border-radius: 7px;
-  background: #fff
+  background:#fff;
+}
+
+#Senha{
+  padding: 10px;
+  margin: 0.5rem;
+  border:30px, black;
+  border-radius: 7px;
+  background: #fff;
 }
 #Registro{
   font-size: 20px;
@@ -44,34 +52,18 @@ body{
   top: 10px;
 }
 .botão:hover{
-  background-color:#03045e
+  background-color:#00000020;
 }
 #Link{
-  color:blue
+  color:blue;
 }
-#Link:hover{
-  color:rgb(48, 10, 129);
-}
-.navbar{
-  list-style: none;
-  margin: 0;
-  padding:0;
-  background: #6e9fed;
-  border-radius: 5px;
-  overflow: auto;
-}
-.navbar li{
-  float:left;
-  font-size: 18px;
 
-}
-.navbar li a{
-  display: block;
-  color: white;
+a:link{
   text-decoration: none;
-  padding:15px 20px;
 }
-.navbar li a:hover{
-  background-color: #1157c9 ;
-  color:antiquewhite
+
+#Esqueci{
+  margin:7px;
+  font-size: 20px;
+  text-decoration: none;
 }
