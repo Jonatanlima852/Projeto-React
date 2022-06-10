@@ -9,10 +9,8 @@ const App = props => (
   <div className="App">
     <Router>
       <Menu/>
-      <About/>
       <Content/>
     </Router>
-    <p>aloooo</p>
   </div>
 )
 
